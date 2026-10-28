@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="174.0mm" height="218.0mm" viewBox="0 0 1740.0 2180.0">
+<title>PHỐI CẢNH 3D TOÀN BỘ NGÔI NHÀ</title>
+<defs><style>
+.t{font-family:'Segoe UI',Arial,Helvetica,sans-serif;fill:#1d1d1d}
+.tb{font-weight:700}.ti{font-style:italic}.tw{fill:#fff}.tr{fill:#b03a2e}.tbl{fill:#1a4f9c}
+.wall{fill:#262626;stroke:#000;stroke-width:.4}
+.wall2{fill:#8c8c8c;stroke:#333;stroke-width:.3}
+.rail{fill:#cfe3ee;stroke:#2f6f8f;stroke-width:.4}
+.col{fill:#000}
+.gap{fill:#fff;stroke:none}
+.win{fill:#fff;stroke:#1f5f8b;stroke-width:.5}
+.winl{stroke:#1f5f8b;stroke-width:.45;fill:none}
+.door{fill:none;stroke:#0b6e2e;stroke-width:.6}
+.doorarc{fill:none;stroke:#0b6e2e;stroke-width:.35;stroke-dasharray:2 1.2}
+.furn{fill:#fff;stroke:#666;stroke-width:.4}
+.furn2{fill:none;stroke:#888;stroke-width:.35}
+.furnd{fill:#e9e4dc;stroke:#666;stroke-width:.4}
+.dash{fill:none;stroke:#777;stroke-width:.4;stroke-dasharray:3 2}
+.dashr{fill:none;stroke:#b03a2e;stroke-width:.4;stroke-dasharray:4 2}
+.stair{fill:none;stroke:#333;stroke-width:.45}
+.staird{fill:none;stroke:#777;stroke-width:.35;stroke-dasharray:2.5 1.5}
+.dim{stroke:#1a4f9c;stroke-width:.35;fill:none}
+.axis{stroke:#c0392b;stroke-width:.35;stroke-dasharray:10 2 1.5 2;fill:none}
+.bub{fill:#fff;stroke:#c0392b;stroke-width:.5}
+.sec{stroke:#b03a2e;stroke-width:1.2;fill:none}
+.arrow{stroke:#333;stroke-width:.5;fill:none;marker-end:url(#arr)}
+.arrowr{stroke:#b03a2e;stroke-width:.8;fill:none;marker-end:url(#arrR)}
+.sun{stroke:#e0a100;stroke-width:.9;fill:none;stroke-dasharray:4 2;marker-end:url(#arrS)}
+.wind{stroke:#2e86c1;stroke-width:.9;fill:none;stroke-dasharray:4 2;marker-end:url(#arrW)}
+.frame{fill:none;stroke:#000;stroke-width:.8}
+.frame2{fill:none;stroke:#000;stroke-width:.4}
+.tbfill{fill:#f4f1ea;stroke:#000;stroke-width:.4}
+.r-khach{fill:#fff3df}.r-bep{fill:#fde6d4}.r-ngu{fill:#e3edfb}.r-wc{fill:#dcf3f3}
+.r-tho{fill:#fbe3e1}.r-shc{fill:#eaf5e1}.r-san{fill:#e4f0da}.r-hall{fill:#f3f3f3}
+.r-bc{fill:#efe8dc}.r-kho{fill:#ececec}.r-void{fill:#ffffff}.r-yard{fill:#eef2e8}
+.r-road{fill:#d9d9d9}.r-roof{fill:#efefef}.r-glass{fill:url(#glass);stroke:#2f6f8f;stroke-width:.5}
+.r-nb{fill:url(#nb);stroke:#999;stroke-width:.3}
+.plant{fill:#9ccc7a;stroke:#4f7f35;stroke-width:.4}
+.car{fill:#f7f7f7;stroke:#555;stroke-width:.5}
+/* mat dung */
+.e-wall{fill:#f6f4ef;stroke:#444;stroke-width:.5}
+.e-recess{fill:#dcd9d1;stroke:#555;stroke-width:.4}
+.e-stone{fill:#8e8b84;stroke:#444;stroke-width:.4}
+.e-stl{stroke:#6d6a63;stroke-width:.3}
+.e-glass{fill:#9fc2d6;stroke:#2d3b45;stroke-width:.5}
+.e-glass2{fill:#b9d6e6;fill-opacity:.45;stroke:#2d3b45;stroke-width:.4}
+.e-alu{fill:none;stroke:#2b2b2b;stroke-width:.9}
+.e-frame{fill:#fdfdfb;stroke:#333;stroke-width:.6}
+.e-wood{fill:#9b6a3c;stroke:#5e3d1e;stroke-width:.3}
+.e-dark{fill:#3d3d3d;stroke:#222;stroke-width:.4}
+.e-gr{stroke:#111;stroke-width:1.6}
+.e-ghost{fill:none;stroke:#aaa;stroke-width:.4;stroke-dasharray:4 3}
+.e-shadow{stroke:#555;stroke-width:1.4}
+.e-light{fill:#ffe9a8;stroke:#c9a227;stroke-width:.3}
+/* mat cat */
+.cut{fill:url(#hatch);stroke:#000;stroke-width:.55}
+.cutb{fill:#3a3a3a;stroke:#000;stroke-width:.4}
+.earth{fill:url(#earth);stroke:none}
+.beyond{fill:none;stroke:#7d7d7d;stroke-width:.35}
+.beyondf{fill:#f1f1f1;stroke:#8d8d8d;stroke-width:.35}
+.insul{fill:#f3d9a4;stroke:#8a6d2b;stroke-width:.3}
+.glassc{fill:#bfe0f0;stroke:#2f6f8f;stroke-width:.5}
+</style>
+<pattern id="hatch" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+ <rect width="5" height="5" fill="#d6d6d6"/><line x1="0" y1="0" x2="0" y2="5" stroke="#444" stroke-width="0.8"/></pattern>
+<pattern id="earth" width="12" height="12" patternUnits="userSpaceOnUse">
+ <rect width="12" height="12" fill="#efe6d6"/><path d="M0 12 L12 0 M-3 3 L3 -3 M9 15 L15 9" stroke="#b9a37f" stroke-width="0.6"/>
+ <circle cx="3" cy="8" r="0.7" fill="#b9a37f"/></pattern>
+<pattern id="glass" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+ <rect width="8" height="8" fill="#dff0f8"/><line x1="0" y1="0" x2="0" y2="8" stroke="#8fc1da" stroke-width="0.7"/></pattern>
+<pattern id="nb" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+ <rect width="10" height="10" fill="#f5f5f5"/><line x1="0" y1="0" x2="0" y2="10" stroke="#c8c8c8" stroke-width="0.6"/></pattern>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#333"/></marker>
+<marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#b03a2e"/></marker>
+<marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#e0a100"/></marker>
+<marker id="arrW" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2e86c1"/></marker>
+</defs>
+<rect x="0" y="0" width="1740.0" height="2180.0" fill="#ffffff"/>
+<image href="anh-3d/toancanh.png" x="90.0" y="90.0" width="760.0" height="475.0" preserveAspectRatio="xMidYMid slice"/>
+<polygon class="frame2" points="90.0,565.0 850.0,565.0 850.0,90.0 90.0,90.0"/>
+<text class="t tb" x="100.0" y="593.0" font-size="20.0" text-anchor="start" dominant-baseline="central">1. Toàn cảnh nhìn từ trên cao (phía trước – trái)</text>
+<image href="anh-3d/mattien.png" x="890.0" y="90.0" width="760.0" height="475.0" preserveAspectRatio="xMidYMid slice"/>
+<polygon class="frame2" points="890.0,565.0 1650.0,565.0 1650.0,90.0 890.0,90.0"/>
+<text class="t tb" x="900.0" y="593.0" font-size="20.0" text-anchor="start" dominant-baseline="central">2. Mặt tiền nhìn từ đường</text>
+<image href="anh-3d/tang1.png" x="90.0" y="660.0" width="760.0" height="475.0" preserveAspectRatio="xMidYMid slice"/>
+<polygon class="frame2" points="90.0,1135.0 850.0,1135.0 850.0,660.0 90.0,660.0"/>
+<text class="t tb" x="100.0" y="1163.0" font-size="20.0" text-anchor="start" dominant-baseline="central">3. Tầng 1 – bỏ mái, tầng 2 và tường bên phải</text>
+<image href="anh-3d/tang2.png" x="890.0" y="660.0" width="760.0" height="475.0" preserveAspectRatio="xMidYMid slice"/>
+<polygon class="frame2" points="890.0,1135.0 1650.0,1135.0 1650.0,660.0 890.0,660.0"/>
+<text class="t tb" x="900.0" y="1163.0" font-size="20.0" text-anchor="start" dominant-baseline="central">4. Tầng 2 – bỏ mái và tường bên phải</text>
+<image href="anh-3d/catdoc.png" x="90.0" y="1230.0" width="760.0" height="475.0" preserveAspectRatio="xMidYMid slice"/>
+<polygon class="frame2" points="90.0,1705.0 850.0,1705.0 850.0,1230.0 90.0,1230.0"/>
+<text class="t tb" x="100.0" y="1733.0" font-size="20.0" text-anchor="start" dominant-baseline="central">5. Cắt dọc nhà – thấy 2 tầng, cầu thang, giếng trời</text>
+<image href="anh-3d/matsau.png" x="890.0" y="1230.0" width="760.0" height="475.0" preserveAspectRatio="xMidYMid slice"/>
+<polygon class="frame2" points="890.0,1705.0 1650.0,1705.0 1650.0,1230.0 890.0,1230.0"/>
+<text class="t tb" x="900.0" y="1733.0" font-size="20.0" text-anchor="start" dominant-baseline="central">6. Mái bằng, giếng trời kính, bồn nước, NLMT</text>
+<polygon class="frame" points="15.0,2165.0 1725.0,2165.0 1725.0,15.0 15.0,15.0"/>
+<polygon class="tbfill" points="30.0,2150.0 1710.0,2150.0 1710.0,2010.0 30.0,2010.0"/>
+<text class="t " x="45.0" y="2040.0" font-size="15.0" text-anchor="start" dominant-baseline="central">CHỦ ĐẦU TƯ</text>
+<text class="t tb" x="45.0" y="2098.0" font-size="25.7" text-anchor="start" dominant-baseline="central">Gia đình chú Ba</text>
+<line class="frame2" x1="298.8" y1="2150.0" x2="298.8" y2="2010.0"/>
+<text class="t " x="313.8" y="2040.0" font-size="15.0" text-anchor="start" dominant-baseline="central">CÔNG TRÌNH</text>
+<text class="t tb" x="313.8" y="2098.0" font-size="17.8" text-anchor="start" dominant-baseline="central">NHÀ Ở 2 TẦNG MÁI BẰNG – PHONG CÁCH HIỆN ĐẠI</text>
+<line class="frame2" x1="802.8" y1="2150.0" x2="802.8" y2="2010.0"/>
+<text class="t " x="817.8" y="2040.0" font-size="15.0" text-anchor="start" dominant-baseline="central">TÊN BẢN VẼ</text>
+<text class="t tb" x="817.8" y="2098.0" font-size="22.6" text-anchor="start" dominant-baseline="central">PHỐI CẢNH 3D TOÀN BỘ NGÔI NHÀ</text>
+<line class="frame2" x1="1239.6" y1="2150.0" x2="1239.6" y2="2010.0"/>
+<text class="t " x="1254.6" y="2040.0" font-size="15.0" text-anchor="start" dominant-baseline="central">TỶ LỆ</text>
+<text class="t tb" x="1254.6" y="2098.0" font-size="26.0" text-anchor="start" dominant-baseline="central">—</text>
+<line class="frame2" x1="1374.0" y1="2150.0" x2="1374.0" y2="2010.0"/>
+<text class="t " x="1389.0" y="2040.0" font-size="15.0" text-anchor="start" dominant-baseline="central">NGÀY</text>
+<text class="t tb" x="1389.0" y="2098.0" font-size="19.5" text-anchor="start" dominant-baseline="central">28/10/2026</text>
+<line class="frame2" x1="1525.2" y1="2150.0" x2="1525.2" y2="2010.0"/>
+<text class="t " x="1540.2" y="2040.0" font-size="15.0" text-anchor="start" dominant-baseline="central">KÝ HIỆU</text>
+<text class="t tb" x="1540.2" y="2098.0" font-size="26.0" text-anchor="start" dominant-baseline="central">KT-09</text>
+<text class="t ti" x="45.0" y="1984.0" font-size="15.0" text-anchor="start" dominant-baseline="central">Thiết kế sơ bộ (phương án kiến trúc) – lập bởi KTS AI Claude. Kích thước tính bằng mm, cao độ tính bằng m. Hồ sơ thi công cần được kỹ sư kết cấu/M&amp;E có chứng chỉ hành nghề thẩm tra, ký duyệt.</text>
+<text class="t " x="45.0" y="1954.0" font-size="16.0" text-anchor="start" dominant-baseline="central">Ảnh chụp từ mô hình 3D tương tác 09_Mo-hinh-3D.html (mở bằng trình duyệt để xoay, ẩn/hiện mái, từng tầng, nội thất). Nội thất, màu sắc mang tính minh họa.</text>
+</svg>

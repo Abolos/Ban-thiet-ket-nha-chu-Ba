@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="348.0mm" height="151.0mm" viewBox="0 0 3480.0 1510.0">
+<title>MẶT BẰNG TỔNG THỂ – VỊ TRÍ</title>
+<defs><style>
+.t{font-family:'Segoe UI',Arial,Helvetica,sans-serif;fill:#1d1d1d}
+.tb{font-weight:700}.ti{font-style:italic}.tw{fill:#fff}.tr{fill:#b03a2e}.tbl{fill:#1a4f9c}
+.wall{fill:#262626;stroke:#000;stroke-width:.4}
+.wall2{fill:#8c8c8c;stroke:#333;stroke-width:.3}
+.rail{fill:#cfe3ee;stroke:#2f6f8f;stroke-width:.4}
+.col{fill:#000}
+.gap{fill:#fff;stroke:none}
+.win{fill:#fff;stroke:#1f5f8b;stroke-width:.5}
+.winl{stroke:#1f5f8b;stroke-width:.45;fill:none}
+.door{fill:none;stroke:#0b6e2e;stroke-width:.6}
+.doorarc{fill:none;stroke:#0b6e2e;stroke-width:.35;stroke-dasharray:2 1.2}
+.furn{fill:#fff;stroke:#666;stroke-width:.4}
+.furn2{fill:none;stroke:#888;stroke-width:.35}
+.furnd{fill:#e9e4dc;stroke:#666;stroke-width:.4}
+.dash{fill:none;stroke:#777;stroke-width:.4;stroke-dasharray:3 2}
+.dashr{fill:none;stroke:#b03a2e;stroke-width:.4;stroke-dasharray:4 2}
+.stair{fill:none;stroke:#333;stroke-width:.45}
+.staird{fill:none;stroke:#777;stroke-width:.35;stroke-dasharray:2.5 1.5}
+.dim{stroke:#1a4f9c;stroke-width:.35;fill:none}
+.axis{stroke:#c0392b;stroke-width:.35;stroke-dasharray:10 2 1.5 2;fill:none}
+.bub{fill:#fff;stroke:#c0392b;stroke-width:.5}
+.sec{stroke:#b03a2e;stroke-width:1.2;fill:none}
+.arrow{stroke:#333;stroke-width:.5;fill:none;marker-end:url(#arr)}
+.arrowr{stroke:#b03a2e;stroke-width:.8;fill:none;marker-end:url(#arrR)}
+.sun{stroke:#e0a100;stroke-width:.9;fill:none;stroke-dasharray:4 2;marker-end:url(#arrS)}
+.wind{stroke:#2e86c1;stroke-width:.9;fill:none;stroke-dasharray:4 2;marker-end:url(#arrW)}
+.frame{fill:none;stroke:#000;stroke-width:.8}
+.frame2{fill:none;stroke:#000;stroke-width:.4}
+.tbfill{fill:#f4f1ea;stroke:#000;stroke-width:.4}
+.r-khach{fill:#fff3df}.r-bep{fill:#fde6d4}.r-ngu{fill:#e3edfb}.r-wc{fill:#dcf3f3}
+.r-tho{fill:#fbe3e1}.r-shc{fill:#eaf5e1}.r-san{fill:#e4f0da}.r-hall{fill:#f3f3f3}
+.r-bc{fill:#efe8dc}.r-kho{fill:#ececec}.r-void{fill:#ffffff}.r-yard{fill:#eef2e8}
+.r-road{fill:#d9d9d9}.r-roof{fill:#efefef}.r-glass{fill:url(#glass);stroke:#2f6f8f;stroke-width:.5}
+.r-nb{fill:url(#nb);stroke:#999;stroke-width:.3}
+.plant{fill:#9ccc7a;stroke:#4f7f35;stroke-width:.4}
+.car{fill:#f7f7f7;stroke:#555;stroke-width:.5}
+/* mat dung */
+.e-wall{fill:#f6f4ef;stroke:#444;stroke-width:.5}
+.e-recess{fill:#dcd9d1;stroke:#555;stroke-width:.4}
+.e-stone{fill:#8e8b84;stroke:#444;stroke-width:.4}
+.e-stl{stroke:#6d6a63;stroke-width:.3}
+.e-glass{fill:#9fc2d6;stroke:#2d3b45;stroke-width:.5}
+.e-glass2{fill:#b9d6e6;fill-opacity:.45;stroke:#2d3b45;stroke-width:.4}
+.e-alu{fill:none;stroke:#2b2b2b;stroke-width:.9}
+.e-frame{fill:#fdfdfb;stroke:#333;stroke-width:.6}
+.e-wood{fill:#9b6a3c;stroke:#5e3d1e;stroke-width:.3}
+.e-dark{fill:#3d3d3d;stroke:#222;stroke-width:.4}
+.e-gr{stroke:#111;stroke-width:1.6}
+.e-ghost{fill:none;stroke:#aaa;stroke-width:.4;stroke-dasharray:4 3}
+.e-shadow{stroke:#555;stroke-width:1.4}
+.e-light{fill:#ffe9a8;stroke:#c9a227;stroke-width:.3}
+/* mat cat */
+.cut{fill:url(#hatch);stroke:#000;stroke-width:.55}
+.cutb{fill:#3a3a3a;stroke:#000;stroke-width:.4}
+.earth{fill:url(#earth);stroke:none}
+.beyond{fill:none;stroke:#7d7d7d;stroke-width:.35}
+.beyondf{fill:#f1f1f1;stroke:#8d8d8d;stroke-width:.35}
+.insul{fill:#f3d9a4;stroke:#8a6d2b;stroke-width:.3}
+.glassc{fill:#bfe0f0;stroke:#2f6f8f;stroke-width:.5}
+</style>
+<pattern id="hatch" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+ <rect width="5" height="5" fill="#d6d6d6"/><line x1="0" y1="0" x2="0" y2="5" stroke="#444" stroke-width="0.8"/></pattern>
+<pattern id="earth" width="12" height="12" patternUnits="userSpaceOnUse">
+ <rect width="12" height="12" fill="#efe6d6"/><path d="M0 12 L12 0 M-3 3 L3 -3 M9 15 L15 9" stroke="#b9a37f" stroke-width="0.6"/>
+ <circle cx="3" cy="8" r="0.7" fill="#b9a37f"/></pattern>
+<pattern id="glass" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+ <rect width="8" height="8" fill="#dff0f8"/><line x1="0" y1="0" x2="0" y2="8" stroke="#8fc1da" stroke-width="0.7"/></pattern>
+<pattern id="nb" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+ <rect width="10" height="10" fill="#f5f5f5"/><line x1="0" y1="0" x2="0" y2="10" stroke="#c8c8c8" stroke-width="0.6"/></pattern>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#333"/></marker>
+<marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#b03a2e"/></marker>
+<marker id="arrS" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#e0a100"/></marker>
+<marker id="arrW" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2e86c1"/></marker>
+</defs>
+<rect x="0" y="0" width="3480.0" height="1510.0" fill="#ffffff"/>
+<polygon class="r-road" points="150.0,1050.0 500.0,1050.0 500.0,150.0 150.0,150.0"/>
+<text class="t tb" x="325.0" y="600.0" font-size="26.0" text-anchor="middle" dominant-baseline="central" transform="rotate(-90 325.0 600.0)">ĐƯỜNG / NGÕ PHÍA TRƯỚC</text>
+<polygon class="r-nb" points="500.0,300.0 2500.0,300.0 2500.0,150.0 500.0,150.0"/>
+<polygon class="r-nb" points="500.0,1050.0 2500.0,1050.0 2500.0,900.0 500.0,900.0"/>
+<text class="t tb" x="1500.0" y="225.0" font-size="22.0" text-anchor="middle" dominant-baseline="central">NHÀ LIỀN KỀ</text>
+<text class="t tb" x="1500.0" y="975.0" font-size="22.0" text-anchor="middle" dominant-baseline="central">NHÀ LIỀN KỀ</text>
+<polygon class="r-yard" points="500.0,900.0 1000.0,900.0 1000.0,300.0 500.0,300.0"/>
+<polygon class="r-roof" points="880.0,900.0 2280.0,900.0 2280.0,300.0 880.0,300.0"/>
+<polygon class="r-san" points="2280.0,900.0 2500.0,900.0 2500.0,300.0 2280.0,300.0"/>
+<line class="dash" x1="2280.0" y1="300.0" x2="2500.0" y2="900.0"/>
+<line class="dash" x1="2500.0" y1="300.0" x2="2280.0" y2="900.0"/>
+<polygon class="r-glass" points="1370.0,880.0 1720.0,880.0 1720.0,670.0 1370.0,670.0"/>
+<polygon class="axis" points="500.0,900.0 2500.0,900.0 2500.0,300.0 500.0,300.0"/>
+<polygon class="car" points="530.0,515.0 530.0,685.0 570.0,690.0 850.0,690.0 885.0,680.0 885.0,520.0 850.0,510.0 570.0,510.0"/>
+<circle class="plant" cx="570.0" cy="340.0" r="23.0"/>
+<circle class="furn2" cx="570.0" cy="340.0" r="10.3"/>
+<circle class="plant" cx="570.0" cy="860.0" r="23.0"/>
+<circle class="furn2" cx="570.0" cy="860.0" r="10.3"/>
+<circle class="plant" cx="670.0" cy="340.0" r="23.0"/>
+<circle class="furn2" cx="670.0" cy="340.0" r="10.3"/>
+<circle class="plant" cx="670.0" cy="860.0" r="23.0"/>
+<circle class="furn2" cx="670.0" cy="860.0" r="10.3"/>
+<circle class="plant" cx="770.0" cy="340.0" r="23.0"/>
+<circle class="furn2" cx="770.0" cy="340.0" r="10.3"/>
+<circle class="plant" cx="770.0" cy="860.0" r="23.0"/>
+<circle class="furn2" cx="770.0" cy="860.0" r="10.3"/>
+<polygon class="wall2" points="500.0,400.0 515.0,400.0 515.0,300.0 500.0,300.0"/>
+<polygon class="wall2" points="500.0,900.0 515.0,900.0 515.0,800.0 500.0,800.0"/>
+<line class="dashr" x1="507.5" y1="400.0" x2="507.5" y2="800.0"/>
+<text class="t tb" x="540.0" y="600.0" font-size="17.0" text-anchor="middle" dominant-baseline="central">CỔNG</text>
+<text class="t " x="920.0" y="600.0" font-size="1.0" text-anchor="middle" dominant-baseline="central"></text>
+<text class="t tb" x="1530.0" y="485.0" font-size="28.0" text-anchor="middle" dominant-baseline="central">NHÀ Ở 2 TẦNG – MÁI BẰNG</text>
+<text class="t ti" x="1530.0" y="512.0" font-size="14.0" text-anchor="middle" dominant-baseline="central">khối nhà 6 × 15 m, ban công đua 1,2 m</text>
+<text class="t " x="1660.0" y="600.0" font-size="1.0" text-anchor="middle" dominant-baseline="central"></text>
+<text class="t tb" x="2390.0" y="600.0" font-size="17.0" text-anchor="middle" dominant-baseline="central">GIẾNG TRỜI / SÂN PHƠI</text>
+<text class="t tb" x="730.0" y="450.0" font-size="19.0" text-anchor="middle" dominant-baseline="central">SÂN TRƯỚC 6 × 5 m</text>
+<text class="t " x="1735.0" y="820.0" font-size="1.0" text-anchor="middle" dominant-baseline="central"></text>
+<polyline class="arrowr" points="270.0,600.0 470.0,600.0"/>
+<text class="t tb tr" x="400.0" y="690.0" font-size="16.0" text-anchor="middle" dominant-baseline="central" transform="rotate(-90 400.0 690.0)">LỐI VÀO</text>
+<line class="dim" x1="500.0" y1="248.0" x2="500.0" y2="212.0"/>
+<line class="dim" x1="493.0" y1="237.0" x2="507.0" y2="223.0"/>
+<line class="dim" x1="1000.0" y1="248.0" x2="1000.0" y2="212.0"/>
+<line class="dim" x1="993.0" y1="237.0" x2="1007.0" y2="223.0"/>
+<line class="dim" x1="2500.0" y1="248.0" x2="2500.0" y2="212.0"/>
+<line class="dim" x1="2493.0" y1="237.0" x2="2507.0" y2="223.0"/>
+<line class="dim" x1="485.0" y1="230.0" x2="2515.0" y2="230.0"/>
+<text class="t tbl" x="750.0" y="215.0" font-size="17.0" text-anchor="middle" dominant-baseline="central">5000</text>
+<text class="t tbl" x="1750.0" y="215.0" font-size="17.0" text-anchor="middle" dominant-baseline="central">15000</text>
+<line class="dim" x1="500.0" y1="198.0" x2="500.0" y2="162.0"/>
+<line class="dim" x1="493.0" y1="187.0" x2="507.0" y2="173.0"/>
+<line class="dim" x1="2500.0" y1="198.0" x2="2500.0" y2="162.0"/>
+<line class="dim" x1="2493.0" y1="187.0" x2="2507.0" y2="173.0"/>
+<line class="dim" x1="485.0" y1="180.0" x2="2515.0" y2="180.0"/>
+<text class="t tbl" x="1500.0" y="165.0" font-size="17.0" text-anchor="middle" dominant-baseline="central">20000</text>
+<line class="dim" x1="422.0" y1="900.0" x2="458.0" y2="900.0"/>
+<line class="dim" x1="433.0" y1="907.0" x2="447.0" y2="893.0"/>
+<line class="dim" x1="422.0" y1="300.0" x2="458.0" y2="300.0"/>
+<line class="dim" x1="433.0" y1="307.0" x2="447.0" y2="293.0"/>
+<line class="dim" x1="440.0" y1="915.0" x2="440.0" y2="285.0"/>
+<text class="t tbl" x="425.0" y="600.0" font-size="17.0" text-anchor="middle" dominant-baseline="central" transform="rotate(-90 425.0 600.0)">6000</text>
+<text class="t tb" x="2590.0" y="180.0" font-size="26.0" text-anchor="start" dominant-baseline="central">BẢNG CHỈ TIÊU KỸ THUẬT</text>
+<line class="frame2" x1="2590.0" y1="210.0" x2="3390.0" y2="210.0"/>
+<text class="t " x="2590.0" y="236.0" font-size="18.0" text-anchor="start" dominant-baseline="central">Diện tích lô đất</text>
+<text class="t tb" x="2960.0" y="236.0" font-size="18.0" text-anchor="start" dominant-baseline="central">120,0 m² (6 × 20 m)</text>
+<line class="dim" x1="2590.0" y1="266.0" x2="3390.0" y2="266.0"/>
+<text class="t " x="2590.0" y="292.0" font-size="18.0" text-anchor="start" dominant-baseline="central">Diện tích xây dựng</text>
+<text class="t tb" x="2960.0" y="292.0" font-size="18.0" text-anchor="start" dominant-baseline="central">90,0 m² (6 × 15 m)</text>
+<line class="dim" x1="2590.0" y1="322.0" x2="3390.0" y2="322.0"/>
+<text class="t " x="2590.0" y="348.0" font-size="18.0" text-anchor="start" dominant-baseline="central">Mật độ xây dựng</text>
+<text class="t tb" x="2960.0" y="348.0" font-size="18.0" text-anchor="start" dominant-baseline="central">75 %</text>
+<line class="dim" x1="2590.0" y1="378.0" x2="3390.0" y2="378.0"/>
+<text class="t " x="2590.0" y="404.0" font-size="18.0" text-anchor="start" dominant-baseline="central">Sân trước</text>
+<text class="t tb" x="2960.0" y="404.0" font-size="18.0" text-anchor="start" dominant-baseline="central">30,0 m² (6 × 5 m)</text>
+<line class="dim" x1="2590.0" y1="434.0" x2="3390.0" y2="434.0"/>
+<text class="t " x="2590.0" y="460.0" font-size="18.0" text-anchor="start" dominant-baseline="central">Số tầng</text>
+<text class="t tb" x="2960.0" y="460.0" font-size="18.0" text-anchor="start" dominant-baseline="central">2 tầng, mái bằng BTCT</text>
+<line class="dim" x1="2590.0" y1="490.0" x2="3390.0" y2="490.0"/>
+<text class="t " x="2590.0" y="516.0" font-size="18.0" text-anchor="start" dominant-baseline="central">Sàn tầng 1 (trong nhà)</text>
+<text class="t tb" x="2960.0" y="516.0" font-size="18.0" text-anchor="start" dominant-baseline="central">76,8 m² + sân phơi 13,2 m²</text>
+<line class="dim" x1="2590.0" y1="546.0" x2="3390.0" y2="546.0"/>
+<text class="t " x="2590.0" y="572.0" font-size="18.0" text-anchor="start" dominant-baseline="central">Sàn tầng 2</text>
+<text class="t tb" x="2960.0" y="572.0" font-size="18.0" text-anchor="start" dominant-baseline="central">76,8 m² + ban công 7,2 + sân phơi 5,4</text>
+<line class="dim" x1="2590.0" y1="602.0" x2="3390.0" y2="602.0"/>
+<text class="t " x="2590.0" y="628.0" font-size="18.0" text-anchor="start" dominant-baseline="central">Tổng DT sàn xây dựng</text>
+<text class="t tb" x="2960.0" y="628.0" font-size="18.0" text-anchor="start" dominant-baseline="central">≈ 179 m²</text>
+<line class="dim" x1="2590.0" y1="658.0" x2="3390.0" y2="658.0"/>
+<text class="t " x="2590.0" y="684.0" font-size="18.0" text-anchor="start" dominant-baseline="central">Chiều cao tầng 1 / tầng 2</text>
+<text class="t tb" x="2960.0" y="684.0" font-size="18.0" text-anchor="start" dominant-baseline="central">3,6 m / 3,4 m</text>
+<line class="dim" x1="2590.0" y1="714.0" x2="3390.0" y2="714.0"/>
+<text class="t " x="2590.0" y="740.0" font-size="18.0" text-anchor="start" dominant-baseline="central">Cao độ đỉnh tường chắn mái</text>
+<text class="t tb" x="2960.0" y="740.0" font-size="18.0" text-anchor="start" dominant-baseline="central">+8,550 m</text>
+<line class="dim" x1="2590.0" y1="770.0" x2="3390.0" y2="770.0"/>
+<text class="t " x="2590.0" y="796.0" font-size="18.0" text-anchor="start" dominant-baseline="central">Cos nền tầng 1</text>
+<text class="t tb" x="2960.0" y="796.0" font-size="18.0" text-anchor="start" dominant-baseline="central">+0,450 so với sân</text>
+<line class="dim" x1="2590.0" y1="826.0" x2="3390.0" y2="826.0"/>
+<text class="t " x="2590.0" y="852.0" font-size="18.0" text-anchor="start" dominant-baseline="central">Phong cách</text>
+<text class="t tb" x="2960.0" y="852.0" font-size="18.0" text-anchor="start" dominant-baseline="central">Hiện đại – tối giản</text>
+<line class="dim" x1="2590.0" y1="882.0" x2="3390.0" y2="882.0"/>
+<circle class="frame2" cx="3200.0" cy="980.0" r="52.0"/>
+<polygon class="cutb" points="3200.0,932.0 3180.0,1010.0 3200.0,995.0 3220.0,1010.0"/>
+<text class="t tb" x="3200.0" y="910.0" font-size="22.0" text-anchor="middle" dominant-baseline="central">B</text>
+<text class="t ti" x="3200.0" y="1060.0" font-size="12.0" text-anchor="middle" dominant-baseline="central">(hướng Bắc giả định –</text>
+<text class="t ti" x="3200.0" y="1077.0" font-size="12.0" text-anchor="middle" dominant-baseline="central">chỉnh theo sổ đỏ)</text>
+<polygon class="frame" points="15.0,1495.0 3465.0,1495.0 3465.0,15.0 15.0,15.0"/>
+<polygon class="tbfill" points="30.0,1480.0 3450.0,1480.0 3450.0,1340.0 30.0,1340.0"/>
+<text class="t " x="45.0" y="1370.0" font-size="15.0" text-anchor="start" dominant-baseline="central">CHỦ ĐẦU TƯ</text>
+<text class="t tb" x="45.0" y="1428.0" font-size="26.0" text-anchor="start" dominant-baseline="central">Gia đình chú Ba</text>
+<line class="frame2" x1="577.2" y1="1480.0" x2="577.2" y2="1340.0"/>
+<text class="t " x="592.2" y="1370.0" font-size="15.0" text-anchor="start" dominant-baseline="central">CÔNG TRÌNH</text>
+<text class="t tb" x="592.2" y="1428.0" font-size="26.0" text-anchor="start" dominant-baseline="central">NHÀ Ở 2 TẦNG MÁI BẰNG – PHONG CÁCH HIỆN ĐẠI</text>
+<line class="frame2" x1="1603.2" y1="1480.0" x2="1603.2" y2="1340.0"/>
+<text class="t " x="1618.2" y="1370.0" font-size="15.0" text-anchor="start" dominant-baseline="central">TÊN BẢN VẼ</text>
+<text class="t tb" x="1618.2" y="1428.0" font-size="26.0" text-anchor="start" dominant-baseline="central">MẶT BẰNG TỔNG THỂ – VỊ TRÍ</text>
+<line class="frame2" x1="2492.4" y1="1480.0" x2="2492.4" y2="1340.0"/>
+<text class="t " x="2507.4" y="1370.0" font-size="15.0" text-anchor="start" dominant-baseline="central">TỶ LỆ</text>
+<text class="t tb" x="2507.4" y="1428.0" font-size="26.0" text-anchor="start" dominant-baseline="central">1/100</text>
+<line class="frame2" x1="2766.0" y1="1480.0" x2="2766.0" y2="1340.0"/>
+<text class="t " x="2781.0" y="1370.0" font-size="15.0" text-anchor="start" dominant-baseline="central">NGÀY</text>
+<text class="t tb" x="2781.0" y="1428.0" font-size="26.0" text-anchor="start" dominant-baseline="central">28/10/2026</text>
+<line class="frame2" x1="3073.8" y1="1480.0" x2="3073.8" y2="1340.0"/>
+<text class="t " x="3088.8" y="1370.0" font-size="15.0" text-anchor="start" dominant-baseline="central">KÝ HIỆU</text>
+<text class="t tb" x="3088.8" y="1428.0" font-size="26.0" text-anchor="start" dominant-baseline="central">KT-01</text>
+<text class="t ti" x="45.0" y="1314.0" font-size="15.0" text-anchor="start" dominant-baseline="central">Thiết kế sơ bộ (phương án kiến trúc) – lập bởi KTS AI Claude. Kích thước tính bằng mm, cao độ tính bằng m. Hồ sơ thi công cần được kỹ sư kết cấu/M&amp;E có chứng chỉ hành nghề thẩm tra, ký duyệt.</text>
+<text class="t " x="45.0" y="1284.0" font-size="16.0" text-anchor="start" dominant-baseline="central">Ranh giới lô đất thể hiện nét chấm gạch đỏ. Vị trí bể nước ngầm 3 m³ dưới sân trước, bể tự hoại dưới sân phơi tầng 1.</text>
+</svg>
