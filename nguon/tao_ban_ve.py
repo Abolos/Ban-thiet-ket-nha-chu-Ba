@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Sinh hồ sơ thiết kế nhà ở 2 tầng 6x15m (SVG + DXF) cho thư mục D:\\Ban-thiet-ke-chu-ba"""
-import math, os, html
+import base64, math, os, html
 
 OUT = r"D:\Ban-thiet-ke-chu-ba"
 DATE = "28/10/2026"
@@ -1454,8 +1454,11 @@ def model_sheet():
         u0 = c * (cw + gap)
         v1 = s.vmax - r * (ch + cap + gap)
         x, y = s.P(u0, v1)
-        s.svg.append('<image href="anh-3d/%s.png" x="%.1f" y="%.1f" width="%.1f" height="%.1f" preserveAspectRatio="xMidYMid slice"/>'
-                     % (k, x, y, cw / 10, ch / 10))
+        # nhúng ảnh trực tiếp (base64): SVG hiển thị qua thẻ <img> không được phép tải file ảnh bên ngoài
+        with open(os.path.join(OUT, "anh-3d", k + ".png"), "rb") as fimg:
+            data = base64.b64encode(fimg.read()).decode("ascii")
+        s.svg.append('<image href="data:image/png;base64,%s" x="%.1f" y="%.1f" width="%.1f" height="%.1f" preserveAspectRatio="xMidYMid slice"/>'
+                     % (data, x, y, cw / 10, ch / 10))
         s.rect(u0, v1 - ch, u0 + cw, v1, "frame2", "FRAME", dxf=False)
         s.text(u0 + 100, v1 - ch - 280, t, 200, "tb", "start", dxf=False)
     s.finish(["Ảnh chụp từ mô hình 3D tương tác 09_Mo-hinh-3D.html (mở bằng trình duyệt để xoay, ẩn/hiện mái, từng tầng, nội thất). "
